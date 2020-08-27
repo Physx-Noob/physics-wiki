@@ -2,9 +2,9 @@
 title: Day 3: Fundamentals of Macroscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-26T06:15:28.458Z
+date: 2020-08-27T04:07:07.759Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Fundamentals of Macroscopic Thermodynamics
@@ -51,7 +51,7 @@ $$z = \frac{Y- \Psi}{X - 0}$$
 - We can generalize by writing the form of the fundamental relation as
 $$Y = Y(X_0, X_1, \cdots , X_t)$$
 - where $Y$ is the entropy or energy and $X_i$ are the appropriate extensive properties. The intensive properties are then 
-$$z_k = \frac{\partial Y}{\partial X_k} _{X_i \neq k}$$
+$$z_k = \frac{\partial Y}{\partial X_k} _{X_{i \neq k}}$$
 - The transformation procedure then involves fitting planes, instead of straight lines, with 
 $$\Psi = Y - \sum_k z_k X_k $$
 - where the summation is over the independent properties we wish to replace. To invert $\Psi$, take the total derivative 
@@ -93,5 +93,5 @@ $$\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$$
   + $$\frac{\partial T}{\partial V}_S = \frac{\partial (-p)}{\partial S}_V$$
   + $$\frac{\partial (-S)}{\partial V}_T = \frac{\partial (-p)}{\partial T}_V$$
   + $$\frac{\partial T}{\partial p}_S = \frac{\partial V}{\partial S}_p$$
-  + $$\frac{\partial S}{\partial p}_T = \frac{\partial V}{\partial T}_p$$
+  + $$\frac{\partial (-S)}{\partial p}_T = \frac{\partial V}{\partial T}_p$$
 
