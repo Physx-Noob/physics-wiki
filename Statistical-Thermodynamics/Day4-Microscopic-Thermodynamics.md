@@ -2,7 +2,7 @@
 title: Day 4: Microscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-28T06:35:00.351Z
+date: 2020-08-28T06:37:40.406Z
 tags: 
 editor: markdown
 ---
@@ -42,7 +42,7 @@ editor: markdown
 $$\langle A \rangle = \frac{1}{n}\sum_{j} n_j A_j$$
 - The bracket indicates average or expectation value, and 
   + $j$ = ensemble member quantum state index
-  + $A_j = U_j, V_j, \text{ or } N_{ij}$
+  + $A_j = U_j$, $V_j$, or $N_{ij}$
   + $n_j$ = number of ensemble members in quantum state $j$
   + $n$ = total number of ensemble members
 ## The Postulates of Microscopic Thermodynamics
