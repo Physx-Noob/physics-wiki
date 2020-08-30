@@ -2,7 +2,7 @@
 title: Day 8: Quantum Mechanics
 description: 
 published: true
-date: 2020-08-30T03:00:21.446Z
+date: 2020-08-30T03:03:12.625Z
 tags: 
 editor: markdown
 ---
@@ -165,7 +165,7 @@ $$L_{n+1}^{2 l+1}(\rho)=\sum_{k=0}^{n-l-1}(-1)^{k+1} \frac{[(n+l) !]^{2}}{(n-l-1
 - Values of $l$, the angular momentum quantum number, are restricted to being less than $n$, or $l = 0, 1, 2, \ldots , n − 1$.
 > #### Atomic Orbitals we are aware of:
 > ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c7/Orbitales.png)
-> Since we have the complete wavefunction, it's plotting will reveal us different shapes of atomic orbitals. 
+> Since we have the complete wavefunction $\psi_{\text{int}} = R_{n l}(\rho)Y_l^{m_l}(\theta, \phi)$, it's plotting for different values of $n, l, m_l$ will reveal us different shapes of atomic orbitals as depicted above. 
 > Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Orbitales.png)
 - We have the wave function $\psi_{\text{int}} = R_{n l}(\rho)Y_l^{m_l}(\theta, \phi)$, solving for the energy
 $$\epsilon_{n}=-\frac{Z^{2} e^{4} \mu}{32 \pi^{2} \epsilon_{0}^{2} \hbar^{2}} \frac{1}{n^{2}}, n=1,2,3, \ldots$$
