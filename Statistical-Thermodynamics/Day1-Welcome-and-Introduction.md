@@ -1,10 +1,10 @@
 ---
-title: Day 1: Welcome and Introduction
+title: Day 01: Welcome and Introduction
 description: 
 published: true
-date: 2020-08-26T06:06:18.733Z
+date: 2020-09-04T08:16:22.544Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Welcome to Statistical Thermodynamics Course
