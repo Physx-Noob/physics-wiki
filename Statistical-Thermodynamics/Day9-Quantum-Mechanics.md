@@ -1,8 +1,8 @@
 ---
-title: Day 9: Quantum Mechanics
+title: Day 09: Quantum Mechanics
 description: 
 published: true
-date: 2020-09-01T03:09:54.933Z
+date: 2020-09-04T08:21:28.379Z
 tags: 
 editor: markdown
 ---
