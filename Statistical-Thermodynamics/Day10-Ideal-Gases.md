@@ -2,7 +2,7 @@
 title: Day 10: Ideal Gases
 description: 
 published: true
-date: 2020-09-04T08:25:11.835Z
+date: 2020-09-04T08:33:45.144Z
 tags: 
 editor: markdown
 ---
@@ -10,7 +10,7 @@ editor: markdown
 # Ideal Gases
 - We deal with non-interacting, or ideal gases. 
 - We calculate the partition function for such gases in a fairly straightforward way. 
-- The partition function can be separated into several components, representing each of the various modes of motion available to the atom or molecule. In some cases, simple algebraic relations are obtained. 
+- The partition function can be separated into several components, representing each of the various modes of motion available to the atom or molecule. In some cases, simple algebraic relations are obtainable. 
 - For the monatomic gas, only translational and electronic motion must be considered. 
 - For molecules, vibrational and rotational motion must be added. 
 - This task is simplified if the Maxwell–Botzmann limit holds, and we will make that assumption for monatomic and molecular gases.
