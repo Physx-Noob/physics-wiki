@@ -2,7 +2,7 @@
 title: Day 10: Ideal Gases
 description: 
 published: true
-date: 2020-09-04T08:23:27.249Z
+date: 2020-09-04T08:25:11.835Z
 tags: 
 editor: markdown
 ---
@@ -13,7 +13,7 @@ editor: markdown
 - The partition function can be separated into several components, representing each of the various modes of motion available to the atom or molecule. In some cases, simple algebraic relations are obtained. 
 - For the monatomic gas, only translational and electronic motion must be considered. 
 - For molecules, vibrational and rotational motion must be added. 
-- This task is simplified if the Maxwell–Botzmann limit holds, and we will make that assumption for monatomic and molecular gases for an easy analysis.
+- This task is simplified if the Maxwell–Botzmann limit holds, and we will make that assumption for monatomic and molecular gases.
 
 ## Partition Function
 - The single-component grand canonical partition function in a gas satisfying the Maxwell–Boltzmann limit is:
