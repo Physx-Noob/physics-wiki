@@ -1,8 +1,8 @@
 ---
-title: Day 5: Microscopic Thermodynamics
+title: Day 05: Microscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-29T04:08:32.718Z
+date: 2020-09-04T08:20:19.305Z
 tags: 
 editor: markdown
 ---
