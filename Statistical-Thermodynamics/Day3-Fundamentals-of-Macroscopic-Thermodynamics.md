@@ -1,8 +1,8 @@
 ---
-title: Day 3: Fundamentals of Macroscopic Thermodynamics
+title: Day 03: Fundamentals of Macroscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-27T04:07:07.759Z
+date: 2020-09-04T08:18:47.171Z
 tags: 
 editor: markdown
 ---
