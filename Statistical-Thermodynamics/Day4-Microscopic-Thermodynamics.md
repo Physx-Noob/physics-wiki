@@ -1,8 +1,8 @@
 ---
-title: Day 4: Microscopic Thermodynamics
+title: Day 04: Microscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-28T06:47:28.033Z
+date: 2020-09-04T08:19:13.819Z
 tags: 
 editor: markdown
 ---
