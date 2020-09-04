@@ -1,10 +1,10 @@
 ---
-title: Day 2: Fundamentals of Macroscopic Thermodynamics
+title: Day 02: Fundamentals of Macroscopic Thermodynamics
 description: 
 published: true
-date: 2020-08-26T14:44:36.160Z
+date: 2020-09-04T08:16:47.872Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Fundamentals of Macroscopic Thermodynamics
