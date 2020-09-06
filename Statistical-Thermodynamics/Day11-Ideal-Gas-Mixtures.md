@@ -2,7 +2,7 @@
 title: Day 11: Ideal Gas Mixtures
 description: 
 published: true
-date: 2020-09-06T06:59:28.859Z
+date: 2020-09-06T07:03:22.530Z
 tags: 
 editor: markdown
 ---
@@ -143,6 +143,12 @@ $$\begin{array}{c}
 > fprintf ( '%5d%10s%10.3g%10.3g \n ' , i , species { i } , nj ( i ) , molfrac ( i ) )
 > end
 > ```
+> #### Output:
+> Mole fractions predicted by Matlab script 
+> | H2O   | O2     | H2    |
+> |-------|--------|-------|
+> | 0.794 | 0.0687 | 0.137 |
+
 
 ### The Equilibrium Constant
 - The discussion above provides a methodology for calculating the equilibrium composition of a reacting gas mixture. However, it is best suited to numerical calculations. 
