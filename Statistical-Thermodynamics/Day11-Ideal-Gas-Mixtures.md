@@ -2,7 +2,7 @@
 title: Day 11: Ideal Gas Mixtures
 description: 
 published: true
-date: 2020-09-06T07:03:22.530Z
+date: 2020-09-06T10:41:41.191Z
 tags: 
 editor: markdown
 ---
@@ -79,7 +79,7 @@ $$G=\sum_{j}^{r} \mu_{j}\left(T, p_{j}\right) N_{j}$$
 $$\mu_j(T, p_j) = g_j(T, p_j) = g_j(T, p) + RT \ln x_j$$
 - The minimization function thus becomes
 $$G=\sum_{j}^{r}\left[g_{j}(T, p)+R T \ln x_{j}\right]$$
-- There are a number of numerical methods to minimize a function subject to constraints. Let us use the Matlab function “`fmincon`” to solve the problem of equilibrium between gaseous water, hydrogen, and oxygen. However, to proceed requires knowing the Gibbs function $g_j(T, p)$.
+- There are a number of numerical methods to minimize a function subject to constraints. Let us use the Matlab function `fmincon` to solve the problem of equilibrium between gaseous water, hydrogen, and oxygen. However, to proceed requires knowing the Gibbs function $g_j(T, p)$.
 
 ### Properties for Equilibrium and 1st Law Calculations
 - A concerted effort to compile properties was one goal of the JANNAF (Joint Army and Navy NASA Air Force) Interagency Propulsion Committee. 
