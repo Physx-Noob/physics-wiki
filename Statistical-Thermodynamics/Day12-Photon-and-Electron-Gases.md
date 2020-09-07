@@ -2,7 +2,7 @@
 title: Day 12: Photon and Electron Gases
 description: 
 published: true
-date: 2020-09-07T11:36:05.626Z
+date: 2020-09-07T11:34:35.715Z
 tags: 
 editor: markdown
 ---
