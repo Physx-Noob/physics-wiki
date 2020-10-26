@@ -2,7 +2,7 @@
 title: Day 15: Crystalline Solids
 description: 
 published: true
-date: 2020-10-26T02:01:23.961Z
+date: 2020-10-26T11:48:00.510Z
 tags: 
 editor: markdown
 ---
@@ -27,7 +27,7 @@ space and they melt over a range of temperatures.
 - The development to obtain the partition function is similar to that for a dense gas. However, there are no modes of motion other than vibration. The total energy can be written as
 $$U = U_0 + \phi(\vec{r_1}, \vec{r_2}, \dots)$$
 - where $U_0$ represents the zero-point energy for the crystal as a whole. The natural frequency of a harmonic oscillator is
-$$v_j = \frac{1}{2\pi}\sqrt{\left ( \frac{k_j}{\mu_j}\right ) }$$
+$$\nu_j = \frac{1}{2\pi}\sqrt{\left ( \frac{k_j}{\mu_j}\right ) }$$
 - where $k_j$ and $\mu_j$ are an effective force constant and an effective reduced mass. Their values will depend on the details of the crystal structure and there will be a distribution of frequencies based on the normal modes.
 - If we assume that the normal modes of motion are independent of each other, then the molecular partition function for vibration is the product of the individual normal mode partition functions:
 $$
@@ -39,53 +39,53 @@ Q=e^{-\frac{U_{0}}{k T}} \prod_{j=1}^{3 N-6} q_{v i b, j}
 $$
 - We have derived the molecular partition function for a harmonic oscillator in our examination of ideal gases:
 $$
-q_{v i b}=\frac{e^{-h v / 2 k T}}{1-e^{-h v / k T}}
+q_{v i b}=\frac{e^{-h \nu / 2 k T}}{1-e^{-h \nu / k T}}
 $$
 - Thus, the total partition function becomes
 $$
-Q=e^{-\frac{U_{0}}{k T}} \prod_{j=1}^{3 N-6}\left(\frac{e^{-h v_{j} / 2 k T}}{1-e^{-h v_{j} / k T}}\right)
+Q=e^{-\frac{U_{0}}{k T}} \prod_{j=1}^{3 N-6}\left(\frac{e^{-h \nu_{j} / 2 k T}}{1-e^{-h \nu_{j} / k T}}\right)
 $$
 - Taking the negative logarithm of $Q$ (remember that $S[1/T] = −k \ln Q$), we have
 $$
--\ln Q=\frac{U_{0}}{k T}+\sum_{j=1}^{3 N} \frac{e^{-h v_{j} / 2 k T}}{1-e^{-h v_{j} / k T}}=\frac{U_{0}}{k T}+\sum_{j=1}^{3 N}\left[\ln \left(1-e^{-h v_{j} / k T}\right)+\frac{h v_{j}}{2 k T}\right]
+-\ln Q=\frac{U_{0}}{k T}+\sum_{j=1}^{3 N} \frac{e^{-h \nu_{j} / 2 k T}}{1-e^{-h \nu_{j} / k T}}=\frac{U_{0}}{k T}+\sum_{j=1}^{3 N}\left[\ln \left(1-e^{-h \nu_{j} / k T}\right)+\frac{h \nu_{j}}{2 k T}\right]
 $$
 - In a macroscopic crystal, the normal-mode frequencies are essentially continuously distributed. If we introduce a distribution function $g(\nu )$, and convert the sum to an integral, we get
 $$
--\ln Q=\frac{U_{0}}{k T}+\int_{0}^{\infty}\left[\ln \left(1-e^{-h v / k T}\right)+\frac{h v}{2 k T}\right] g(v) d v
+-\ln Q=\frac{U_{0}}{k T}+\int_{0}^{\infty}\left[\ln \left(1-e^{-h \nu / k T}\right)+\frac{h \nu}{2 k T}\right] g(\nu) d \nu
 $$
 - Here, $g(\nu )$ is normalized to the total number of normal-mode frequencies
 $$\int_0^{\infty}g(\nu ) d\nu = 3N$$
 - We can now calculate the thermodynamic properties. The Helmholtz function is just
 $$
-F[1 / T]=-\ln Q=\frac{U_{0}}{k T}+\int_{0}^{\infty}\left[\ln \left(1-e^{-h v / k T}\right)+\frac{h v}{2 k T}\right] g(v) d v
+F[1 / T]=-\ln Q=\frac{U_{0}}{k T}+\int_{0}^{\infty}\left[\ln \left(1-e^{-h \nu / k T}\right)+\frac{h \nu}{2 k T}\right] g(v) d v
 $$
 - Then the internal energy is
 $$
-U=U_{0}+\int_{0}^{\infty}\left[\frac{h v e^{-h v / k T}}{1-e^{-h v / k T}}+\frac{h v}{2}\right] g(v) d v
+U=U_{0}+\int_{0}^{\infty}\left[\frac{h \nu e^{-h \nu / k T}}{1-e^{-h \nu / k T}}+\frac{h \nu}{2}\right] g(\nu) d \nu
 $$
 - and the specific heat becomes
 $$
-c_{v}=k \int_{0}^{\infty}\left[\frac{(h v / k T)^{2} e^{-h v / k T}}{\left(1-e^{-h v / k T}\right)^{2}}\right] g(v) d v
+c_{\nu}=k \int_{0}^{\infty}\left[\frac{(h \nu / k T)^{2} e^{-h \nu / k T}}{\left(1-e^{-h \nu / k T}\right)^{2}}\right] g(\nu) d \nu
 $$
 - It remains to determine $g(\nu )$ .
 # Einstein Crystal
 - Einstein made the very simple assumption that there was only a single normal-mode frequency. If we define the characteristic Einstein temperature as
 $$
-\Theta_{E} \equiv \frac{h v_{v i b}}{k}
+\Theta_{E} \equiv \frac{h \nu_{v i b}}{k}
 $$
 - then the Helmholtz function, the energy, and the specific heat become
 $$
 \frac{F}{k T}=-\left\{\frac{N U_{0}}{2 k T}+3 N \ln \left(2 \sinh \frac{\theta_{E}}{2 T}\right)\right\}
 $$
 $$U=\frac{N U_{0}}{2}+\frac{3}{2} N k \theta_{E} \coth \frac{\theta_{E}}{2 T}$$
-$$C_{v}=3 N k\left[\frac{\theta_{E} / 2 T}{\sinh \left(\theta_{E} / 2 T\right)}\right]^{2}$$
+$$C_{\nu}=3 N k\left[\frac{\theta_{E} / 2 T}{\sinh \left(\theta_{E} / 2 T\right)}\right]^{2}$$
 - The entropy is
 $$S=3 N k\left[\frac{\theta_{E}}{2 T} \operatorname{coth} \frac{\theta_{E}}{2 T}-\ln \left(2 \sinh \frac{\theta_{E}}{2 T}\right)\right]$$
 - The specific entropy, energy, and specific heat are plotted in below figure as a function of $T/\theta_E$
 ![enter image description here](https://theskillcraft.com/img-host/images/2020/10/25/Annotation-2020-10-25-175440.png)
 - The limiting values of $C_{\nu}$ are
-$$T \rightarrow 0, \quad \frac{C_{v}}{N k} \rightarrow 3\left(\frac{\theta_{E} / T}{e^{\theta_{E} / 2 T}}\right)^{2}$$
-$$T \rightarrow \infty, \quad \frac{C_{v}}{N k} \rightarrow 3$$
+$$T \rightarrow 0, \quad \frac{C_{\nu}}{N k} \rightarrow 3\left(\frac{\theta_{E} / T}{e^{\theta_{E} / 2 T}}\right)^{2}$$
+$$T \rightarrow \infty, \quad \frac{C_{\nu}}{N k} \rightarrow 3$$
 # Debye Crystal
 - The Einstein solid works pretty well, except that inter-particle interactions are ignored.
 - Every oscillator is the same. In fact, at significant temperatures, a solid acts more like a multi-body system with $3N−6$ degrees of freedom. 
